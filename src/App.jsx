@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <div className="App">
+    <div className="App font-sans">
       <Sidebar/>
       <Main/>
 
