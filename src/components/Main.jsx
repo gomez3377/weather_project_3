@@ -4,7 +4,7 @@ import Highlights from './Highlights'
 
 const Main = ({ weatherConditions }) => {
   return (
-    <div>
+    <div className='bg-midnightBlue w-2/3 h-full'>
         <header>
             <button>&deg;C</button>
             <button>&deg;F</button>

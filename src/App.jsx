@@ -17,10 +17,9 @@ function App() {
   
   const [weatherConditions, setWeatherConditions] = useState([clear, hail, heavyCloud, heavyRain, lightCloud, lightRain, shower, sleet, snow, thunderstorm])
   return (
-    <div className="App flex">
+    <div className="App flex w-full h-full">
       <CurrentWeather weatherConditions={weatherConditions}/>
       <Main weatherConditions={weatherConditions}/>
-
     </div>
   )
 }
