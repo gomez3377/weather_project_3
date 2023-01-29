@@ -3,7 +3,7 @@ import SingleDayForecast from './SingleDayForecast'
 
 const FiveDayForecast = ( { weatherConditions } ) => {
   return (
-    <div>
+    <div className='flex justify-between mt-16'>
         <SingleDayForecast weatherConditions={weatherConditions} />
         <SingleDayForecast weatherConditions={weatherConditions} />
         <SingleDayForecast weatherConditions={weatherConditions} />
