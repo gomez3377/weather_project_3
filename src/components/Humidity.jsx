@@ -4,10 +4,10 @@ const Humidity = () => {
   return (
     <div className='w-[328px] bg-darkBlue pt-[22px] text-nearWhite text-center'>
 <h4>Humidity</h4>
-<div className='humidity-percentage flex items-center justify-center '>
 
-<h1 className=' font-bold text-[64px]'>84</h1><h2 className='text-4xl'>%</h2>
-</div>
+
+<h1 className=' font-bold text-[64px]'>84<span className='text-4xl font-normal'>%</span></h1>
+
 <div className='mx-auto relative humidity-amount-tags flex justify-center text-gray'>
   <p className='absolute left-0'>0</p>
   <p className='absolute left-50%'>50</p>
