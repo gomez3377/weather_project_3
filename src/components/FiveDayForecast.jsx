@@ -1,5 +1,5 @@
 import React from 'react'
-import SingleDayForecast from './SingleDayForecast'
+import SingleDayForecast from './forecast-card/forecast-card.component'
 
 const FiveDayForecast = ( { weatherConditions } ) => {
   return (

@@ -6,7 +6,7 @@ import WindStatus from './WindStatus'
 
 const Highlights = () => {
   return (
-    <div className=' grid grid-rows-2 grid-cols-2 gap-y-12'>
+    <div className=' '>
         <WindStatus/>
         <Humidity/>
         <Visibility/>
